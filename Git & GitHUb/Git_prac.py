@@ -70,4 +70,4 @@
 
 # Ye 4 commands Git ke basic workflow ki core commands hain.
 
-# Ab git log practically chalao. Phir main tumhe tumhare apne 0a10e5d commit se samjhaunga.
+# Ab git log ka matlab ha snap shot kitne bane uski history btata ha
