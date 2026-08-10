@@ -54,6 +54,7 @@
 # Tumhare liye important distinction
 # git status
 
+
 # = Abhi project mein kya ho raha hai?
 
 # git add .
@@ -71,3 +72,5 @@
 # Ye 4 commands Git ke basic workflow ki core commands hain.
 
 # Ab git log ka matlab ha snap shot kitne bane uski history btata ha
+
+# git diff is mein pata chalata ha file mein kia chizen change ki han
