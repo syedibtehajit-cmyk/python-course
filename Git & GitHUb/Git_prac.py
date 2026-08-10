@@ -50,3 +50,24 @@
 #Save Snapshot
  #     ↓
 #git commit
+
+# Tumhare liye important distinction
+# git status
+
+# = Abhi project mein kya ho raha hai?
+
+# git add .
+
+# = Kis change ko commit ke liye ready karna hai?
+
+# git commit
+
+# = Current changes ka snapshot save karo.
+
+# git log
+
+# = Mere purane snapshots/commits dikhao.
+
+# Ye 4 commands Git ke basic workflow ki core commands hain.
+
+# Ab git log practically chalao. Phir main tumhe tumhare apne 0a10e5d commit se samjhaunga.
