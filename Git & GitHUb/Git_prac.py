@@ -75,4 +75,30 @@
 
 # git diff is mein pata chalata ha file mein kia chizen change ki han
 
-# gitignore Kuch files/folders ko Git se ignore karna
+# gitignore Kuch files/folders ko Git se ignore karna .gitignore file bana ha .py ni lagana is mein ye __pycache__/
+#*.pyc
+#.venv/
+#.env
+#yani jise git ignore kare 
+
+#Pehle .gitignore ko stage karo:
+# kisi ak item ko  file ke name ke commit karta ha "New-Item .gitignore -ItemType File
+#
+# "
+#git add .gitignore
+
+
+#Summary
+
+#it status       → changes dekho
+#git diff         → exact changes dekho
+#git add          → staging
+#git commit       → snapshot save
+#git log          → history dekho
+#.gitignore       → unwanted files ignore
+
+#git ls-files "*__pycache__*" "*.pyc" __pycache and .pyc kis file ko track karha ha
+
+# git rm --cached "Logging_sample_topic/__pycache__/logging.cpython-313.pyc
+#pycache__/student_module.cpython-313.pyc
+#project/tools/__pycache__/calculator.cpython-313.pyc" Isliye ab in 3 files ko Git ki tracking se remove karna hai, lekin computer se delete nahi karna.
