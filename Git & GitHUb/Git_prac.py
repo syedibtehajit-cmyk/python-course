@@ -74,3 +74,5 @@
 # Ab git log ka matlab ha snap shot kitne bane uski history btata ha
 
 # git diff is mein pata chalata ha file mein kia chizen change ki han
+
+# gitignore Kuch files/folders ko Git se ignore karna
