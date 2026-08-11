@@ -75,5 +75,4 @@
 # 6. Remote GitHub repository check karo
 #git remote -v
 
-
-print("This change is only for feature-practice branch")
+print("MASTER BRANCH VERSION")
