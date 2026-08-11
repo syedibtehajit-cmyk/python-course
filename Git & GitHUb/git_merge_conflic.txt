@@ -1,0 +1,99 @@
+🧠 Conflict ka complete formula note kar lo
+git merge feature-practice
+        ↓
+CONFLICT
+        ↓
+file kholo
+        ↓
+<<<<<<<
+=======
+>>>>>>>
+markers remove karo
+        ↓
+desired code rakho
+        ↓
+git add file (".\path")
+        ↓
+git commit
+        ↓
+✅ Conflict resolved
+
+
+⚠️ Merge Conflict
+
+Jab dono branches same line ko different tarah change kar dein:
+
+git merge feature-practice
+
+Git:
+
+CONFLICT
+Automatic merge failed
+Conflict resolve:
+
+File kholo → ye markers milenge:
+
+<<<<<<< HEAD
+MASTER VERSION
+=======
+FEATURE VERSION
+>>>>>>> feature-practice
+
+Jo version rakhna hai rakho, markers delete karo.
+
+Phir:
+
+git add "file.py"
+git commit -m "Resolve merge conflict"
+Formula yaad rakho:
+merge
+ ↓
+CONFLICT
+ ↓
+file fix
+ ↓
+git add
+ ↓
+git commit
+🌐 GitHub Sync
+git pull
+
+GitHub → Local
+
+git push
+
+Local → GitHub
+
+Agar push reject ho:
+
+fetch first
+remote contains work
+
+to:
+
+git pull
+
+phir zarurat ke mutabiq merge resolve karo, phir:
+
+git push
+🔍 Useful Commands
+git status
+
+Current situation.
+
+git log --oneline
+
+Short commit history.
+
+git log --oneline --graph --all
+
+Branches + merge history visually.
+
+git diff
+
+Current changes dekho.
+
+🧠 One-line memory trick
+BRANCH → CHANGE → COMMIT → SWITCH → MERGE → CONFLICT? → FIX → ADD → COMMIT → PUSH
+
+Ye aaj ka Branching + Merge Conflict milestone ka complete short note hai.
