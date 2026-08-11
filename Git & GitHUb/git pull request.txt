@@ -1,0 +1,132 @@
+GitHub Pull Request — Learning Notes
+1. Pull Request kya hota hai?
+
+Pull Request (PR) GitHub par ek request hoti hai:
+
+Feature branch ke changes ko master/main branch mein merge karne ki request.
+
+PR ka main purpose:
+
+Code review
+Team approval
+Changes discuss karna
+Main branch ko safe rakhna
+2. Pull Request kab banate hain?
+
+Jab:
+
+Feature complete ho
+Bug fix complete ho
+Changes feature branch mein hon
+Changes GitHub par push kar diye hon
+Main branch mein merge karne se pehle review chahiye ho
+3. Basic PR Workflow
+master
+   ↓
+feature branch
+   ↓
+Code change
+   ↓
+git add
+   ↓
+git commit
+   ↓
+git push
+   ↓
+GitHub Pull Request
+   ↓
+Review
+   ↓
+Merge
+   ↓
+master
+4. Important Commands
+Feature branch par jana
+git switch feature-practice
+Changes check karna
+git status
+git diff
+Changes stage karna
+git add .
+Commit
+git commit -m "Add new feature"
+First time branch GitHub par push
+git push -u origin feature-practice
+Baad mein
+git push
+5. GitHub par PR
+
+GitHub mein:
+
+base: master
+compare: feature-practice
+
+Phir:
+
+Create Pull Request
+        ↓
+Review
+        ↓
+Merge Pull Request
+        ↓
+Confirm Merge
+6. Agar PR mein Conflict aaye
+
+Example:
+
+This branch has conflicts that must be resolved
+
+Local repository mein:
+
+git fetch origin
+git merge origin/master
+
+Conflict wali file kholo aur:
+
+<<<<<<< HEAD
+Feature version
+=======
+Master version
+>>>>>>> origin/master
+
+markers remove karke correct code rakho.
+
+Phir:
+
+git add .
+git commit -m "Resolve merge conflict"
+git push
+
+PR automatically update ho jayegi.
+
+7. Pull vs Pull Request
+git pull
+GitHub → Local PC
+
+Purpose: GitHub ke latest changes apne computer par lana.
+
+Pull Request
+Feature branch → Main branch
+
+Purpose: GitHub par apne changes ko review/approve karwa kar main branch mein merge karwana.
+
+8. Sabse Important Memory Formula
+Normal PR:
+CHANGE
+→ ADD
+→ COMMIT
+→ PUSH
+→ PR
+→ REVIEW
+→ MERGE
+Conflict PR:
+CONFLICT
+→ FIX
+→ ADD
+→ COMMIT
+→ PUSH
+→ PR UPDATED
+→ MERGE
+Milestone Status
+
+GitHub Pull Request — COMPLETE ✅
