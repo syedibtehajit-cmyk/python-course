@@ -76,5 +76,3 @@
 #git remote -v
 print("FEATURE BRANCH VERSION")
 print("My first Pull Request practice")
-
-print("Soft reset practice")
