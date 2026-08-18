@@ -255,10 +255,27 @@
   #  print(x)
    # x += 1
 
-x=1
-while x<=10:
-    if x==5:
-      x+=1
-      continue
-    print(x)
-    x+=1
+#x=1
+#while x<=10:
+ #   if x==5:
+  #    x+=1
+   #   continue
+   # print(x)
+   # x+=1
+# Nested Loops
+for i in range(1, 4):
+    for j in range(1, 3):
+        for K in range(1, 3):
+         print(i, j , K)
+#this patten this loop
+  # i = 1
+ #├─ j = 1
+ #└─ j = 2
+
+# = 2
+ #├─ j = 1
+ #└─ j = 2
+
+#i = 3
+# ├─ j = 1
+# └─ j = 2
