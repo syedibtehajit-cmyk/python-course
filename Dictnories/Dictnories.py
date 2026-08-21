@@ -31,3 +31,4 @@ car = {
 
 for key, value in car.items():
     print(key, value)
+

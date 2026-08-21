@@ -32,14 +32,25 @@
 
 
  #     )
-#Tuples
-system = ("CPU",
-"RAM",
-"SSD",
-"GPU",
-"PSU")
-print(system[1],len(system),system)
-if "SSD" in system:
-    print("found in SSD")
+#Tuples 1
+#system = ("CPU",
+#"RAM",
+#"SSD",
+#"GPU",
+#PSU")
+#print(system[1],len(system),system)
+#if "SSD" in system:
+ #   print("found in SSD")
+#else:
+ #   print("Not found")
+
+#Set 2 dupicate khatam karta ha
+languages = {"Python", "Java", "C++", "C++", "C++"}
+languages.remove("C++")
+languages.add("C#")
+print(languages)
+
+if "ASP"in languages:
+    print ("Availiable in Python")
 else:
-    print("Not found")
+    print("not found")
