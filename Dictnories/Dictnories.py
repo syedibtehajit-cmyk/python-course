@@ -29,6 +29,6 @@ car = {
     "model": "Every"
 }
 
-for key, value in car.items():
+for key, value in car.items(WindowsError):
     print(key, value)
 
