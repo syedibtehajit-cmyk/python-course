@@ -1,0 +1,31 @@
+1. NumPy Introduction
+2. np.array()
+3. 1D & 2D Arrays
+4. ndim
+5. shape
+6. size
+7. Indexing
+8. Slicing
+9. arange()
+10. reshape()
+11. zeros()
+12. ones()
+13. linspace()
+14. random.randint()
+15. random.rand()
+
+16. Array Arithmetic
+    +  -  *  /
+
+17. Statistics
+    np.sum()
+    np.mean()
+    np.min()
+    np.max()
+
+18. Axis
+    axis=0 → Column-wise
+    axis=1 → Row-wise
+
+19. np.sort()
+20. np.unique()
