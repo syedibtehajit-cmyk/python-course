@@ -1,0 +1,49 @@
+ 1. Install
+pip install pandas
+2. Import
+import pandas as pd
+3. DataFrame banana
+data = {
+    "Name": ["Ali", "Ahmed", "Sara"],
+    "Age": [25, 30, 27],
+    "Salary": [60000, 80000, 75000]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+4. Column access
+print(df["Name"])
+
+Multiple columns:
+
+print(df[["Name", "Salary"]])
+5. Data filter
+
+Sirf age 27 se zyada:
+
+print(df[df["Age"] > 27])
+
+Salary 70,000 se zyada:
+
+print(df[df["Salary"] > 70000])
+6. Basic information
+print(df.head())
+print(df.shape)
+print(df.columns)
+print(df.info())
+print(df.describe())
+
+Ye commands bohat important hain, especially ML mein dataset samajhne ke liye.
+
+7. CSV read karna
+
+Real-world ML mein aksar data CSV mein hota hai:
+
+df = pd.read_csv("employees.csv")
+
+print(df.head())
+
+Aur save:
+
+df.to_csv("new_data.csv", index=False)
