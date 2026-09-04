@@ -25,4 +25,11 @@ print(df[df["Age"] > 30])
 print(df[df["Department"] == "IT"])
 
 #Do conditions
-print(df[(df["Department"] == "IT") & (df["Salary"] > 60000)])
+print(df[(df["Department"] == "IT") & (df["Salary"] > 70000)])
+#loc → index/name dekar data lo
+#iloc → position number dekar data lo
+print(df.loc[2])
+print(df.iloc[2])
+
+
+
